@@ -43,22 +43,21 @@ Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Ma
 ### Passo a passo pelo terminal
 
 1. Clone o repositório:
-`ash
-git clone https://github.com/hermessonyurii/calculadora-imc.git
+`git clone https://github.com/hermessonyurii/calculadora-imc.git
 `
 
 2. Acesse a pasta do projeto:
-`ash
+`
 cd calculadora-imc
 `
 
 3. Compile o código:
-`ash
+`
 javac src/CalculadoraIMC.java
 `
 
 4. Execute a aplicação:
-`ash
+`
 java -cp src CalculadoraIMC
 `
 
