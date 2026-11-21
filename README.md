@@ -65,6 +65,6 @@ java -cp src CalculadoraIMC
 
 ---
 
-## 👤 Autor
+## 👤 Tema de estudos.
 
 Desenvolvido por **[Hermesson Yuri](https://github.com/hermessonyurii)** | **[LinkedIn](https://www.linkedin.com/in/hermesson-yuri/)**
