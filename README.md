@@ -34,7 +34,7 @@ Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Ma
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 💻 Como Executar o Projeto
 
 ### Pré-requisitos
 - Ter o **Java JDK** instalado (versão 17 ou superior recomendada).
