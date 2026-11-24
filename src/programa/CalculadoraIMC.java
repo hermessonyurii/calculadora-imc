@@ -1,3 +1,4 @@
+package programa;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -9,11 +10,14 @@ public class CalculadoraIMC {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Digite seu peso:");
         double peso = sc.nextDouble();
+        System.out.printf("Digite sua altura:");
         double altura = sc.nextDouble();
 
 
         double imc = peso / (altura * altura);
+
 
         System.out.println("Peso: " + peso + " kg");
         System.out.println("Altura: " + altura + " m");

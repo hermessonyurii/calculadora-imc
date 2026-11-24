@@ -1,11 +1,12 @@
-﻿# Calculadora de IMC em Java ⚖️
+# Calculadora de IMC em Java ⚖️
 
-Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Massa Corporal (IMC)**, exibindo o peso, altura, valor calculado e a classificação correspondente de acordo com as diretrizes da Organização Mundial da Saúde (OMS).
+Aplicação desenvolvida em **Java** para cálculo do **Índice de Massa Corporal (IMC)**, com versões via **console** e **interface gráfica interativa (JOptionPane)**. O programa exibe o peso, altura, valor calculado e a classificação correspondente de acordo com as diretrizes da Organização Mundial da Saúde (OMS).
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Java
+- **Linguagem:** Java (JDK 17+)
+- **GUI:** Java Swing (`JOptionPane`)
 - **IDE:** IntelliJ IDEA
 - **Controle de Versão:** Git & GitHub
 
@@ -25,12 +26,14 @@ Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Ma
 ---
 
 ## 🧠 Conceitos e Boas Práticas Aplicados
-- **Entrada de dados:** Uso da classe Scanner com Locale.US para leitura padronizada de números com ponto flutuante.
-- **Tipos de dados:** Variáveis do tipo double para precisão no cálculo de peso, altura e IMC.
-- **Operadores aritméticos:** Precedência correta com parênteses: peso / (altura * altura).
-- **Estruturas condicionais:** Encadeamento lógico eficiente com if, else if e else.
-- **Formatação de saída:** Exibição com System.out.printf limitando o resultado a duas casas decimais (%.2f).
-- **Gerenciamento de recursos:** Fechamento do scanner com sc.close().
+- **Organização em pacotes:** Código estruturado dentro do pacote `programa`.
+- **Interface Gráfica e Console:** Flexibilidade com duas opções de uso (via terminal com `Scanner` ou via caixas de diálogo com `JOptionPane`).
+- **Entrada de dados:** Uso de `Locale.US` para leitura padronizada de números decimais com ponto.
+- **Tipos de dados:** Variáveis do tipo `double` para precisão no cálculo de peso, altura e IMC.
+- **Operadores aritméticos:** Precedência correta com parênteses: `peso / (altura * altura)`.
+- **Estruturas condicionais:** Encadeamento lógico eficiente com `if`, `else if` e `else`.
+- **Formatação de saída:** Exibição com `printf` / `String.format` limitando o resultado a duas casas decimais (`%.2f`).
+- **Gerenciamento de recursos:** Fechamento adequado do scanner com `sc.close()`.
 
 ---
 
@@ -43,25 +46,31 @@ Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Ma
 ### Passo a passo pelo terminal
 
 1. Clone o repositório:
-`git clone https://github.com/hermessonyurii/calculadora-imc.git
-`
+```bash
+git clone https://github.com/hermessonyurii/calculadora-imc.git
+```
 
 2. Acesse a pasta do projeto:
-`
+```bash
 cd calculadora-imc
-`
+```
 
-3. Compile o código:
-`
-javac src/CalculadoraIMC.java
-`
+3. Compile as classes do pacote:
+```bash
+javac src/programa/*.java
+```
 
-4. Execute a aplicação:
-`
-java -cp src CalculadoraIMC
-`
+4. Execute a aplicação desejada:
 
-5. Digite o peso (ex: 75.5) e aperte Enter. Depois digite a altura (ex: 1.75) e aperte Enter.
+- **Versão Console:**
+```bash
+java -cp src programa.CalculadoraIMC
+```
+
+- **Versão Gráfica (Diálogos Swing):**
+```bash
+java -cp src programa.CalculadoraIMC_Grafico
+```
 
 ---
 
