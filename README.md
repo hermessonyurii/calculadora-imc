@@ -5,7 +5,7 @@ Aplicação de console desenvolvida em **Java** para cálculo do **Índice de Ma
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Java (JDK 17+)
+- **Linguagem:** Java
 - **IDE:** IntelliJ IDEA
 - **Controle de Versão:** Git & GitHub
 
